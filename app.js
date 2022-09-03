@@ -37,7 +37,7 @@ export default app;
 
 app.get("/", (req, res) =>
   res.send(
-    `<h1>Its working. Click to visit <a href=${process.env.FRONTEND_URL}></a></h1>`
+    `<h1>Its working. Click to visit <a href=${process.env.FRONTEND_URL}>Link</a></h1>`
   )
 );
 
