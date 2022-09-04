@@ -5,7 +5,7 @@ const schema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  razorpay_signatur: {
+  razorpay_signature: {
     type: String,
     required: true,
   },
