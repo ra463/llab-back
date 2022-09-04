@@ -251,7 +251,7 @@ export const removeFromPlaylist = catchAsyncErrors(async (req, res, next) => {
 
   if (!user) return next(new ErrorHandler("User not found", 404));
 
-  const course = await Course.findById(req.body.id);
+  const course = await Course.findById(req.query.id);
 
   if (!course) return next(new ErrorHandler("Course not found", 404));
 
