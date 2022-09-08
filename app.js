@@ -40,5 +40,4 @@ app.get("/", (req, res) =>
     `<h1>Its working. Click to visit <a href=${process.env.FRONTEND_URL}>Link</a></h1>`
   )
 );
-
 app.use(Error);
